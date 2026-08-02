@@ -1,0 +1,37 @@
+# PodTrace agent — namespace, service account, and RBAC.
+# The agent needs to: read pods + pod metrics, and delete pods when it captures.
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: podtrace
+---
+apiVersion: v1
+kind: ServiceAccount
+metadata:
+  name: podtrace-agent
+  namespace: podtrace
+---
+apiVersion: rbac.authorization.k8s.io/v1
+kind: ClusterRole
+metadata:
+  name: podtrace-agent
+rules:
+  - apiGroups: [""]
+    resources: ["pods"]
+    verbs: ["get", "list", "watch", "delete"]
+  - apiGroups: ["metrics.k8s.io"]
+    resources: ["pods"]
+    verbs: ["get", "list"]
+---
+apiVersion: rbac.authorization.k8s.io/v1
+kind: ClusterRoleBinding
+metadata:
+  name: podtrace-agent
+roleRef:
+  apiGroup: rbac.authorization.k8s.io
+  kind: ClusterRole
+  name: podtrace-agent
+subjects:
+  - kind: ServiceAccount
+    name: podtrace-agent
+    namespace: podtrace

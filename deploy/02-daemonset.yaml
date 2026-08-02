@@ -1,0 +1,68 @@
+# PodTrace agent DaemonSet — runs one agent per node (your single node = the
+# Ubuntu VM). Deployed declaratively with `kubectl apply`. It auto-captures a
+# memory image the moment a target pod's crash-risk crosses the threshold, and
+# saves the image to a directory on the Ubuntu host (hostPath: SAVE_DIR).
+#
+# The watcher script is injected via a ConfigMap (see deploy/README or run:
+#   kubectl -n podtrace create configmap podtrace-watcher \
+#       --from-file=watcher_incluster.py=podtrace/watcher_incluster.py)
+#
+# hostNetwork:true  -> the agent can reach the node's kubelet at 127.0.0.1:10250
+# hostPath mounts   -> kubelet certs, the kubelet checkpoint output dir, and the
+#                      host save directory on the Ubuntu machine.
+apiVersion: apps/v1
+kind: DaemonSet
+metadata:
+  name: podtrace-agent
+  namespace: podtrace
+spec:
+  selector:
+    matchLabels: { app: podtrace-agent }
+  template:
+    metadata:
+      labels: { app: podtrace-agent }
+    spec:
+      serviceAccountName: podtrace-agent
+      hostNetwork: true                 # reach kubelet on 127.0.0.1:10250
+      hostPID: true
+      containers:
+        - name: agent
+          image: python:3.12-slim
+          command: ["/bin/sh", "-c"]
+          args:
+            - >
+              pip install --no-cache-dir kubernetes requests --quiet &&
+              python /app/watcher_incluster.py
+          env:
+            - { name: TARGET_NAMESPACE, value: "default" }
+            # target by exact name OR by label (leave one empty):
+            - { name: TARGET_POD,   value: "webserver" }
+            - { name: TARGET_LABEL, value: "" }          # e.g. "app=web"
+            - { name: CONTAINER,    value: "webserver" }
+            - { name: THRESHOLD,    value: "0.60" }
+            - { name: INTERVAL,     value: "3" }
+            - { name: KUBELET_HOST, value: "127.0.0.1" }
+            - { name: KUBELET_PORT, value: "10250" }
+            - { name: SAVE_DIR,     value: "/savedir" }
+            - { name: KUBELET_CERT,   value: "/certs/apiserver-kubelet-client.crt" }
+            - { name: KUBELET_KEY,    value: "/certs/apiserver-kubelet-client.key" }
+            - { name: KUBELET_CACERT, value: "/certs/ca.crt" }
+          volumeMounts:
+            - { name: script,      mountPath: /app,       readOnly: true }
+            - { name: certs,       mountPath: /certs,      readOnly: true }
+            - { name: checkpoints, mountPath: /var/lib/kubelet/checkpoints }
+            - { name: savedir,     mountPath: /savedir }
+          securityContext:
+            privileged: true            # needed to read kubelet checkpoint output
+      volumes:
+        - name: script
+          configMap: { name: podtrace-watcher }
+        - name: certs
+          hostPath: { path: /etc/kubernetes/pki, type: Directory }
+        - name: checkpoints
+          hostPath: { path: /var/lib/kubelet/checkpoints, type: DirectoryOrCreate }
+        # >>> this is the directory on your UBUNTU MACHINE where images are saved <<<
+        - name: savedir
+          hostPath: { path: /opt/podtrace/memory-images, type: DirectoryOrCreate }
+      tolerations:
+        - operator: Exists              # also run on control-plane node (single-node)
